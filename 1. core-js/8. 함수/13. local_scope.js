@@ -4,11 +4,13 @@
 function outer(x) {
     var y = 'outer local y';
     var z = 'outer local z';
+    var p = 33;
     console.log(x);
     console.log(y);
 
     function inner() {
         var x = 'inner local x';
+        var k = 1;
         var z = 'inner local z';
         console.log(x);
         console.log(y);
@@ -20,7 +22,6 @@ function outer(x) {
 var x = 'global x';
 
 outer('outer param x');
-
 
 
 

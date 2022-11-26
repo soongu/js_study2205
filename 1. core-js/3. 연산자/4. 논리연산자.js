@@ -21,7 +21,7 @@ console.log('==========================');
 console.log(!t);
 console.log(!f);
 
-var money = 10;
+var money = 100;
 if (!money) {
     console.log('나는 그지에요~');
 } 

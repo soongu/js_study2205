@@ -3,6 +3,7 @@ var x = 10;
 
 function foo() {
     var y = 3;    
+    var z = y ** 2;
 }
 
 console.log(x);
@@ -21,6 +22,11 @@ function bar() {
     //지역변수와 동일한 이름의 전역변수가 존재할 시
     // 전역변수보다 지역변수를 우선 참조함.
     console.log(`함수 내부 z : ${z}`);
+
+    function hi() {
+        var z = 'zzz';
+        console.log(z);
+    }
 
     return z;
 }

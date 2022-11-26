@@ -1,4 +1,5 @@
 
+
 // 상수: 불변의 고정값
 const SALE_RATE = 0.2; //할인율 20%
 
@@ -22,6 +23,7 @@ const person = {
 person.name = '고길동';
 console.log(person);
 
+const a = 10;
 
 for (let i = 0; i < 5; i++) {
     

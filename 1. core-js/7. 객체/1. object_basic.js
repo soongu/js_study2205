@@ -5,7 +5,11 @@ var dog = {
     kind: '진돗개',
     age: 3,
     injection: true,
-    favorite: ['산책', '간식']
+    favorite: ['산책', '간식'],
+
+    add: function(n1, n2) {
+        return n1 + n2;
+    }
 };
 
 var cat = {
@@ -24,6 +28,7 @@ console.log(cat.age);
 console.log(cat.favorite);
 console.log(dog.favorite[1]);
 
+
 dog.favorite.push('뛰어놀기');
 console.log(dog);
 
@@ -31,7 +36,9 @@ console.log(dog);
 console.log('=========================');
 console.log(dog.injection);
 //대괄호 참조시에는 문자열형태로 key를 사용
-console.log(dog['injection']);
+
+var injection = 'injection';
+console.log(dog[injection]);
 console.log(cat['age']);
 
 //프로퍼티 값 수정

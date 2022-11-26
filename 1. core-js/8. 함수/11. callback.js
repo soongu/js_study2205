@@ -33,6 +33,8 @@ function showEighthNumber(n) {
 }
 
 
+// n : 전달할 숫자
+// x : 조건식 코드 콜백함수
 
 function showNumber(n, x) {
     for (var i = 1; i <= n; i++) {
@@ -41,6 +43,17 @@ function showNumber(n, x) {
         }
     }
 }
+
+// 짝수만 걸러서 출력
+showNumber(10, m => m % 2 === 0);
+
+// 5의 배수면서 10의 배수가 아닌거
+showNumber(200, function(n) {
+    return n % 5 === 0 && n % 10 !== 0;
+});
+
+
+
 
 
 function foo(cb1, cb2) {
@@ -55,7 +68,6 @@ function foo(cb1, cb2) {
         n++;
     }
 }
-
 
 //5의배수들만 출력
 showNumber(20, i => i % 5 === 0);

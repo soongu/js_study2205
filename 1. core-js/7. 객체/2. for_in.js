@@ -7,7 +7,7 @@ var phone = {
 };
 
 for (var data in phone) {
-    // console.log(data);
+    // console.log( data);
     console.log(phone[data]);
 }
 

@@ -3,6 +3,9 @@
 // x ~ y 까지의 누적합을 구하는 함수 정의
 // 매개변수(parameter) : 함수를 정의할 때 외부에서 받아올 값을 저장하는 변수
 function calcRangeTotal(begin, end) {
+
+    console.log(`begin: ${begin}, end: ${end}`);
+
     var total = 0;
     for (var n = begin; n <= end; n++) {
         total += n;
@@ -28,7 +31,7 @@ function sayHello(language='한국어') {
     // console.log(`lang: ${language}`);
 
     // ES5
-    //language = language || '한국어';
+    // language = language || '한국어';
 
     if (language === '한국어') {
         console.log('안녕하세요!');

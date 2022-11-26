@@ -17,5 +17,4 @@ console.log(`i : ${i}`);
 z = 100;
 console.log(z);
 
-
 var z;

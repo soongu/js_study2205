@@ -29,8 +29,8 @@ var result1 = add2(10, 20);
 var result2 = add3(10, 20, 30);
 console.log(`result2: ${result2}`);
 
-var result3 = addAll([10, 20, 30, 40, 100, 200]);
+var result3 = addAll([10, 40, 100, 200]);
 console.log(`result3: ${result3}`);
 
-var result4 = addAll2(10, 20, 30, 40, 100, 200);
+var result4 = addAll2(10, 30, 50);
 console.log(`result4: ${result4}`);
