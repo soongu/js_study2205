@@ -13,11 +13,14 @@ var x = -10;
 
 x > 0 && console.log('안녕하십니까아아아!');
 
-/*
+
 if (x > 0) {
     console.log('안녕하십니까!');
-}
-*/
+} 
+x > 0 && console.log('안녕하십니까!');
+      
+// loginUser && <button>수정</button>
+
 
 
 

@@ -29,8 +29,7 @@ var filePath = 'D:\\temp\\new.png';
 console.log(filePath);
 
 //템플릿 리터럴 (ES6+ 문법)
-// var tag = '<ul>\n\t<li><a href="#">네이버링크</a></li>\n</ul>';
-
+var tag = '<ul>\n\t<li><a href="#">네이버링크</a></li>\n</ul>';
 var tag = `
 <ul>
     <li>

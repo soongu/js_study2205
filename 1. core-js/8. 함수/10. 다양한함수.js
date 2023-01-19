@@ -18,6 +18,7 @@ function add(n1, n2) {
     return n1 + n2;
 }
 
+
 // var apple = add;
 
 // var a = apple(10, 20);
@@ -66,6 +67,7 @@ function outer() {
     inner();
     inner();
 }
+
 
 
 //화살표 함수 (ES6+)

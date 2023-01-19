@@ -1,3 +1,4 @@
+const { Button } = require("bootstrap");
 
 //어떤 숫자 n을 전달하면 1부터 n까지의 짝수들을 모두 출력하는 함수
 function showEvenNumber(n) {
@@ -45,7 +46,7 @@ function showNumber(n, x) {
 }
 
 // 짝수만 걸러서 출력
-showNumber(10, m => m % 2 === 0);
+showNumber(10, n => n % 2 === 0);
 
 // 5의 배수면서 10의 배수가 아닌거
 showNumber(200, function(n) {
@@ -74,6 +75,7 @@ showNumber(20, i => i % 5 === 0);
 
 showNumber(30, i => i % 8 === 0);
 
+
 console.log('=======================');
 showNumber(10, i => i % 2 === 1);
 console.log('=======================');
@@ -96,6 +98,8 @@ function sayHello(cb) {
     cb('안녕안녕~~');
     console.log('=====================');
 }
+
+
 
 
 sayHello(message => console.log(`콜백이 할말이 있단다 : ${message}`));

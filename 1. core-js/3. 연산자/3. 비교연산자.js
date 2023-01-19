@@ -11,11 +11,11 @@ console.log(a !== b);
 console.log('=======================');
 
 // == 비교는 결과 예측이 어려우므로 사용하지 않는 걸 추천
-console.log('0' == '');
-console.log(0 == '');
-console.log('0' == 0);
-console.log(false == 'false');
-console.log(false == '0');
+console.log('0' === '');
+console.log(0 === '');
+console.log('0' === 0);
+console.log(false === 'false');
+console.log(false === '0');
 
 console.log('=======================');
 
