@@ -13,17 +13,20 @@
     <button id="b3">클릭3~</button>
 
     <script>
-        
+  
         function sayHello() {
             alert('안녕하세요!');
         }
+        
 
         const [$b1, $b2, $b3] = [...document.querySelectorAll('button')];
 
         $b1.onclick = sayHello;
+
         $b2.onclick = function() {
             $b2.style.width= '150px';
         };
+
         $b3.onmouseenter = () => {
             $b3.style.background = 'red';
         };

@@ -2,11 +2,14 @@
 var x = 10;
 
 function foo() {
-    var y = 3;    
+    console.log(x);
+    var y = 3 + x;    
     var z = y ** 2;
 }
 
 console.log(x);
+// console.log(y);
+// const m = y + z;
 
 console.log('======================');
 
@@ -24,7 +27,7 @@ function bar() {
     console.log(`함수 내부 z : ${z}`);
 
     function hi() {
-        var z = 'zzz';
+        // var z = 'zzz';
         console.log(z);
     }
 

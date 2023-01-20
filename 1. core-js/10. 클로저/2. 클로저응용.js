@@ -27,6 +27,7 @@ const c = (function() {
     };
 })();
 
+
 console.log(c.increase());
 console.log(c.increase());
 console.log(c.increase());

@@ -17,10 +17,13 @@
         const $msg = document.querySelector('.msg');
 
         $input.addEventListener('keyup', function(e) {
-            if (e.key === 'Enter') {
+
+            console.log(e);
+
+            //if (e.key === 'Enter') {
                 $msg.textContent = $input.value;
-                $input.value = '';
-            }
+                // $input.value = '';
+            //}
         });
 
     </script>
